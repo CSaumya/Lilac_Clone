@@ -18,7 +18,7 @@ const faqs = [
 ];
 
 const ProfessionalBg = () => {
-  const [open, setOpen] = useState(null);
+const [open, setOpen] = useState<number | null>(null);
 
   return (
    <section className="bg-[var(--accent)] text-[var(--primary)] py-24 px-6 mt-20 flex justify-center">
