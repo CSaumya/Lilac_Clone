@@ -19,7 +19,7 @@ const faqs = [
 ];
 
 const Faq = () => {
-  const [open, setOpen] = useState(null);
+const [open, setOpen] = useState<number | null>(null);
 
   return (
     <section className="bg-[var(--background)] min-h-screen px-6 md:px-20 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
